@@ -1,6 +1,10 @@
-
 import os
-import math
+
+#to see if 24 bytes adds up to that much of a difference
+def split_table(bytes):
+    standard = bytes / 1000
+    binary = bytes / 1024
+
 
 sum = 0
 leader = 0
